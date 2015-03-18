@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+title: "IWD 2015 Women Techmakers New York"
+email: ""
+description: "Women Techmakers seeks to empower, celebrate and amplify the achievements of women in technology"
 baseurl: "/wtm2015"
 url: "https://gdg-newyork.github.io/"
 permalink: "/blog/:title"
@@ -25,7 +25,7 @@ organizerName: "GDG New York"
 organizerAlternateName: "Google Developer Group New York"
 organizerDescription: "Community for developers working with Google technology in New York."
 organizerEmail: ""
-organizerLogo: "/img/seo/organizer-logo.png"
+organizerLogo: "/img/seo/wtm-logo.png"
 organizerLink: "http://meetup.com/nyc-gdg"
 
 # Head
@@ -36,8 +36,8 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4pUrl: "http://bit.ly/wtm-gdgnewyork-cfp"
+c4sponsorsUrl: ""
 
 
 # Navigation
@@ -48,36 +48,35 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "http://www.meetup.com/NYC-GDG/events/220252411/", text: "RSVP Now"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "http://www.meetup.com/NYC-GDG/events/220252411/", text: "RSVP Now"}
 
 # Hero Block
-heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroImage: "hero-unsplash.jpg"
+heroTitle: "Women Techmakers GDG New York | <typeout>"
+eventDate: "March 22, 2015"
+typeoutTextValues: '"Create", "Connect", "Celebrate"'
+typeoutFallback: "Women Techmakers GDG New York"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "http://www.meetup.com/NYC-GDG/events/220252411/", text: "RSVP Now"}
+ - {permalink: "/schedule", text: "See Schedule"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About This Event"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Keynotes", image: "conference.jpg", text: "From visionary technologists. On telling your own story. And looking to the future." }
+ - {title: "Techmaker Stories", image: "workshop.jpg", text: "Lightning talks from diverse women technologists. Sharing their stories and advice on careers in technology." }
+ - {title: "Workshops", image: "hackathon.jpg", text: "Parallel workshop tracks with hardware, software and community focus. " }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "100", specialCharacter: "+", info: "attendees", detail: "from the Greater New York Area"}
+ - {count: "7", specialCharacter: "+", info: "hours", detail: "of inspiration, conversation and learning"}
+ - {count: "19", specialCharacter: "+", info: "speakers", detail: "including designers & developers, non-profits & entrepreneurs"}
+ - {count: "3", specialCharacter: "", info: "workshops", detail: "plus two keynotes and multiple #BeInspired talks from women technologists"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
